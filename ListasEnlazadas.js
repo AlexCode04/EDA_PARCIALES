@@ -65,7 +65,8 @@ class LinkedList {
     return LinkedList.reverseList(mergedList);
   }
 
-  // Método para invertir una lista enlazad
+  // Método para invertir una lista enlaz
+  
   static reverseList(list) {
     let prev = null;
     let current = list.head;
